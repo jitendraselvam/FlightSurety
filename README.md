@@ -39,6 +39,52 @@ To build dapp for prod:
 
 Deploy the contents of the ./dapp folder
 
+## versions: 
+
+The following tools and versions were used in the project
+
+| package | Version |
+|:-------:|:-------:|
+| nodejs | 10.12.0 |
+| npm | 6.4.1 |
+| Truffle | 5.1.64 |
+| Solidity | 0.4.24 |
+| web3.js | 1.3.3 |
+| Ganache | 2.5.4 |
+
+## Tests:
+
+### flight Surety
+
+`truffle test ./test/flightSurety.js`
+![](imgs/tests.png)
+
+### Orcale tests
+
+`truffle test ./test/oracles.js`
+![](imgs/oracletests1.png)
+![](imgs/oracletests2.png)
+
+### Oracle Registrations
+
+`npm run server`
+![](imgs/orcaleRegistration.png)
+
+### flight registration
+
+![](imgs/flightRegisration.png)
+
+### Purchase Insurance
+
+![](imgs/purchaseInsurance.png)
+
+### Insurance Purchased
+
+![](imgs/insurancePurchased.png)
+
+### Withdraw Insurance
+
+![](imgs/insurancePayout.png)
 
 ## Resources
 
